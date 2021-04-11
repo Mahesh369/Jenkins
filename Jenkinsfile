@@ -20,6 +20,7 @@ pipeline{
 							steps{
 								echo "Helllo world!!!!"
 								}
+							}
 					stage('Four'){
 							parallel{
 									stage('Unit Test'){
@@ -36,4 +37,3 @@ pipeline{
 					}
 			}
 		}
-	}
